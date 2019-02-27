@@ -22,25 +22,6 @@ module.exports = {
           loader: 'babel-loader'
         }
       },
-      // CSS
-      {
-        test: /\.css$/,
-        use: [
-          'style-loader',
-          'css-loader',
-          'postcss-loader'
-        ]
-      },
-      // SCSS
-      {
-        test: /\.scss$/,
-        use: [
-          'style-loader',
-          'css-loader',
-          'sass-loader',
-          'postcss-loader'
-        ]
-      },
       // Images
       {
         test: /\.(png|svg|jpg|gif)$/,
